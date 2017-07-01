@@ -81,10 +81,10 @@
 
 			// Layer WMS desde geoserver Local
 			var layerPGMF = new OpenLayers.Layer.WMS(
-				"Planes de Manejo Forestal",
-				"http://192.168.1.155:8080/geoserver/wms",
+				"aves amenazadas",
+				"http://192.168.1.13:8080/geoserver/wms",
 				{
-					layers: 'cursosigLPV:B0603201_PGMF_A2016',
+					layers: 'aves_migratorias:aves_amenazadas',
 					transparent: true
 				}
 			);
